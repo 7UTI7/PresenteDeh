@@ -20,7 +20,7 @@ function respostaSim() {
 
 function respostaNao() {
   // Agora leva pra pag3
-  window.location.href = "/pages/pag3.html";
+  window.location.href = "pag3.html";
 }
 
 
