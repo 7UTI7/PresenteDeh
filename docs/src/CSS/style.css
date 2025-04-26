@@ -1,3 +1,4 @@
+/* Estilos gerais */
 body {
   margin: 0;
   padding: 0;
@@ -62,35 +63,18 @@ h2 {
   line-height: 1.6;
 }
 
-/* Estilização do botão */
-.btn {
-  background-color: #f78ca2;
-  color: #000;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 8px;
-  font-weight: bold;
-  font-size: 16px;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-}
-
-.btn:hover {
-  transform: scale(1.05);
-}
-
-/* Ajustes para telas menores */
-@media (max-width: 768px) {
+/* Ajuste para tela de 700px por 840px */
+@media (max-width: 700px) and (max-height: 840px) {
   .container {
     padding: 20px;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .main-image img {
-    width: 300px; /* Ajusta o tamanho da imagem principal em telas menores */
+    width: 280px;  /* Ajuste para imagens menores em telas intermediárias */
   }
 
   .content {
@@ -104,8 +88,9 @@ h2 {
   }
 
   .text {
-    width: 100%;
+    width: 90%;
     font-size: 16px;
+    padding: 0 20px;
   }
 
   .btn {
@@ -115,7 +100,7 @@ h2 {
   }
 }
 
-/* Ajustes para telas muito pequenas (celulares) */
+/* Ajustes para telas menores que 480px */
 @media (max-width: 480px) {
   .main-image img {
     width: 250px; /* Ajusta ainda mais a imagem para telas muito pequenas */
