@@ -30,7 +30,7 @@ h2 {
 }
 
 .main-image img {
-  width: 100%;  /* Ajustando para que a imagem principal ocupe toda a largura disponível */
+  width: 100%;
   max-width: 400px;
   height: auto;
   border-radius: 10px;
@@ -39,7 +39,7 @@ h2 {
 
 .content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 20px;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -50,7 +50,7 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 180px;  /* Definindo um tamanho fixo para cada coluna */
+  width: 180px;  /* Ajustado para ser mais fixo e alinha melhor as imagens */
 }
 
 .left-column img, .right-column img {
@@ -87,14 +87,15 @@ h2 {
 
   .left-column, .right-column {
       width: 90%;  /* Ajustando a largura para que as colunas ocupem mais espaço em telas pequenas */
+      margin-bottom: 20px;  /* Espaço entre as colunas em dispositivos móveis */
   }
 
   .text {
       width: 90%;
-      font-size: 16px;  /* Reduzindo o tamanho da fonte para telas menores */
+      font-size: 16px;
   }
 
   .main-image img {
-      width: 80%;  /* Ajustando a largura para que a imagem principal ocupe mais espaço em telas pequenas */
+      width: 80%;
   }
 }
