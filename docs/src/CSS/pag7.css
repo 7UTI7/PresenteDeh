@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2f2f2f; /* Cor de fundo igual à página anterior */
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .heart {
+    font-size: 150px; /* Tamanho do coração */
+    animation: pulse 1s infinite; /* Efeito de animação de batimento do coração */
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2); /* Cresce um pouco */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
